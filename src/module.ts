@@ -39,7 +39,6 @@ export default defineNuxtModule<ModuleOptions>({
     version: 'v3',
   },
   setup (options, nuxt) {
-    // @ts-ignore
     const { resolve } = createResolver(import.meta.url)
     const config = nuxt.options.runtimeConfig
 

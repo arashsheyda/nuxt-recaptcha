@@ -19,7 +19,8 @@ async function genToken() {
     <pre
       v-if="token"
       class="mt-4"
-      v-html="JSON.stringify(token, null, 2)"
-    />
+    >
+    {{ token }}
+    </pre>
   </div>
 </template>
