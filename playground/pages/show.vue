@@ -10,6 +10,8 @@ recaptcha.showBadge()
 
 <template>
   <div>
-    The recaptcha is always show in this page, as we are using <UKbd size="md">recaptcha.showBadge()</UKbd>
+    The recaptcha is always show in this page, as we are using <UKbd size="md">
+      recaptcha.showBadge()
+    </UKbd>
   </div>
 </template>

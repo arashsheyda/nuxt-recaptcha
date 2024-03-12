@@ -21,6 +21,10 @@ function genToken(e) {
     <UButton @click="genToken">
       generate token
     </UButton>
-    <pre v-if="token" class="mt-4" v-html="JSON.stringify(token, null, 2)" />
+    <pre
+      v-if="token"
+      class="mt-4"
+      v-html="JSON.stringify(token, null, 2)"
+    />
   </div>
 </template>

@@ -22,6 +22,9 @@ function toggleBadge() {
 <template>
   <div>
     The recaptcha is hidden in this page, but when user navigates to another page, it will be shown. you can find the code used for this function below:
-    <pre class="mt-4" v-html="code" />
+    <pre
+      class="mt-4"
+      v-html="code"
+    />
   </div>
 </template>
