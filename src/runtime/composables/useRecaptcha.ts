@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue'
-import { useRuntimeConfig } from '#imports'
+import { useRuntimeConfig, useNuxtApp } from '#imports'
 
 const hidden = ref(false)
 
