@@ -1,13 +1,11 @@
 import { ref, watch, onBeforeUnmount, onMounted } from 'vue'
-import { useRuntimeConfig, useNuxtApp, useHead } from '#imports'
+import { useRuntimeConfig, useHead } from '#imports'
 
 const hidden = ref(false)
 
 export const useRecaptcha = () => {
 
-  const { $recaptcha } = useNuxtApp()
-
-  const config = useRuntimeConfig()
+  const { recaptcha } = useRuntimeConfig().public
 
   watch(hidden, (value) => {
     useHead({
@@ -24,13 +22,16 @@ export const useRecaptcha = () => {
     })
   })
 
+  const execute = async (action: string) => {
+    return await grecaptcha.execute(recaptcha.siteKey, { action })
+  }
+
   return {
     hidden,
+    execute,
     hideBadge,
     showBadge,
-    toggleBadge,
-    config: $recaptcha,
-    ...config.public.recaptcha,
+    ...recaptcha,
   }
 }
 
@@ -42,11 +43,11 @@ function showBadge() {
   hidden.value = false
 }
 
-function toggleBadge() {
-  onMounted(() => {
-    hidden.value = true
-  })
-  onBeforeUnmount(() => {
-    hidden.value = false
-  })
-}
+// function toggleBadge() {
+//   onMounted(() => {
+//     hidden.value = true
+//   })
+//   onBeforeUnmount(() => {
+//     hidden.value = false
+//   })
+// }

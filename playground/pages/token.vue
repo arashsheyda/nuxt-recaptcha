@@ -6,13 +6,8 @@ definePageMeta({
 const recaptcha = useRecaptcha()
 const token = ref()
 
-function genToken(e) {
-  e.preventDefault();
-  grecaptcha.ready(function () {
-    grecaptcha.execute(recaptcha.config.siteKey, { action: 'submit' }).then(function (t) {
-      token.value = t
-    });
-  });
+async function genToken() {
+  token.value = await recaptcha.execute('login')
 }
 </script>
 
