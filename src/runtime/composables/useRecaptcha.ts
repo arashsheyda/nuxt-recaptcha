@@ -1,4 +1,4 @@
-import { ref, watch, onBeforeUnmount, onMounted } from 'vue'
+import { ref, watch } from 'vue'
 import { useRuntimeConfig, useHead } from '#imports'
 
 const hidden = ref(false)
