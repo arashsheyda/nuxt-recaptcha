@@ -1,5 +1,5 @@
-import { ref, watch } from 'vue'
-import { useRuntimeConfig, useNuxtApp } from '#imports'
+import { ref, watch, onBeforeUnmount, onMounted } from 'vue'
+import { useRuntimeConfig, useNuxtApp, useHead } from '#imports'
 
 const hidden = ref(false)
 
