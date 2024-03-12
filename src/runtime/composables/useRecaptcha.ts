@@ -12,11 +12,7 @@ export const useRecaptcha = () => {
       style: [
         {
           key: `recaptcha-badge`,
-          innerHTML: `
-          .grecaptcha-badge {
-            display: ${value ? 'none' : 'block'} !important;
-          }
-          `,
+          innerHTML: `.grecaptcha-badge{display:${value?'none':'block'}!important;}`,
         },
       ],
     })
