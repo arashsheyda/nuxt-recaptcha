@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/arashsheyda/nuxt-recaptcha/compare/v0.0.3...v0.0.4)
+
+### 🏡 Chore
+
+- Remove toggle page ([0bf3afb](https://github.com/arashsheyda/nuxt-recaptcha/commit/0bf3afb))
+- Remove unused imports ([e436cd4](https://github.com/arashsheyda/nuxt-recaptcha/commit/e436cd4))
+- Minify innerHtml css ([d7cdf2e](https://github.com/arashsheyda/nuxt-recaptcha/commit/d7cdf2e))
+
+### ❤️ Contributors
+
+- Arash <arashi.sheyda@gmail.com>
+
 ## v0.0.3
 
 [compare changes](https://github.com/arashsheyda/nuxt-recaptcha/compare/v0.0.2...v0.0.3)
