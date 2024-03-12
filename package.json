@@ -1,8 +1,8 @@
 {
   "name": "nuxt-recaptcha",
-  "version": "1.0.0",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "version": "0.0.0",
+  "description": "Nuxt 3 integration for Google Recaptcha",
+  "repository": "arashsheyda/nuxt-recaptcha",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -18,12 +18,12 @@
     "dist"
   ],
   "scripts": {
-    "prepack": "nuxt-module-build build",
+    "build": "nuxt-module-build build",
     "dev": "nuxi dev playground",
     "dev:host": "nuxi dev playground --host auctria.local --https",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
-    "release": "npm run lint && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "release": "npm run lint && npm run build && changelogen --release && npm publish && git push --follow-tags",
     "lint": "eslint ."
   },
   "dependencies": {
