@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "nuxt-recaptcha-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.14.2",
+    "nuxt": "latest"
+  }
+}
