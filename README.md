@@ -1,4 +1,4 @@
-<!-- ![nuxt3-recaptcha](https://raw.githubusercontent.com/arashsheyda/nuxt3-recaptcha/main/playground/public/social-card.jpg) -->
+<!-- ![nuxt-recaptcha](https://raw.githubusercontent.com/arashsheyda/nuxt-recaptcha/main/playground/public/social-card.jpg) -->
 
 ## Nuxt Recaptcha
 
@@ -8,17 +8,17 @@
 ## Installation
 
 ```bash
-pnpm add nuxt3-recaptcha
+pnpm add nuxt-recaptcha
 ```
 
 ## Usage
 
-Add `nuxt3-recaptcha` to the `modules` section of your `nuxt.config.ts` file.
+Add `nuxt-recaptcha` to the `modules` section of your `nuxt.config.ts` file.
 
 ```ts
 export default defineNuxtConfig({
   modules: [
-    'nuxt3-recaptcha',
+    'nuxt-recaptcha',
   ],
 
   recaptcha: {
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
 })
 ```
 
-For more info, please refer to our [documentation](https://docs.arashsheyda.me/nuxt3-recaptcha).
+For more info, please refer to our [documentation](https://docs.arashsheyda.me/nuxt-recaptcha).
 
 ## License
 
