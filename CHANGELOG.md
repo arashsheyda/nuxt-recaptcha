@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/arashsheyda/nuxt-recaptcha/compare/v0.0.4...v0.0.6)
+
+### 🏡 Chore
+
+- Rename package ([82f4ac5](https://github.com/arashsheyda/nuxt-recaptcha/commit/82f4ac5))
+
+### ❤️ Contributors
+
+- Arash <arashi.sheyda@gmail.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/arashsheyda/nuxt-recaptcha/compare/v0.0.3...v0.0.4)
