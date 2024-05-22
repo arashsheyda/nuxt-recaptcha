@@ -1,8 +1,8 @@
 <!-- ![nuxt3-recaptcha](https://raw.githubusercontent.com/arashsheyda/nuxt3-recaptcha/main/playground/public/social-card.jpg) -->
 
-## Nuxt 3 Recaptcha
+## Nuxt Recaptcha
 
-[Nuxt 3](https://nuxt.com/) integration for [Google Recaptcha](https://www.google.com/recaptcha/about/)
+[Nuxt](https://nuxt.com/) integration for [Google Recaptcha](https://www.google.com/recaptcha/about/)
 
 
 ## Installation
