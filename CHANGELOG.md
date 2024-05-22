@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/arashsheyda/nuxt-recaptcha/compare/v0.0.6...v0.0.7)
+
+### 🏡 Chore
+
+- Update readme ([c17453f](https://github.com/arashsheyda/nuxt-recaptcha/commit/c17453f))
+
+### ❤️ Contributors
+
+- Arash <arashi.sheyda@gmail.com>
+
 ## v0.0.6
 
 [compare changes](https://github.com/arashsheyda/nuxt-recaptcha/compare/v0.0.4...v0.0.6)

@@ -1,6 +1,6 @@
 {
   "name": "nuxt-recaptcha",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Nuxt 3 integration for Google Recaptcha",
   "repository": "arashsheyda/nuxt-recaptcha",
   "license": "MIT",
